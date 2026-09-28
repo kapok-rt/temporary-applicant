@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "id": "E-01",
+      "trigger_error_type": "unsigned",
+      "min_count": 2,
+      "trust_delta": 0,
+      "title": "文书积压",
+      "text": "人事档案室回传：本班次有数份无签名文书被归档进入正式序列。Captain 在通讯中问了一句「签核流程是谁在把关」。"
+    },
+    {
+      "id": "E-02",
+      "trigger_error_type": "missing_hos_stamp",
+      "min_count": 1,
+      "trust_delta": -0.5,
+      "title": "军械库缺口",
+      "text": "安全部报告：一支未获正式许可的武器离开了军械库。HoS 在下班前提交了一份措辞克制的说明，附件是完整的领用记录。"
+    },
+    {
+      "id": "E-03",
+      "trigger_error_type": "suspicious_record",
+      "min_count": 1,
+      "trust_delta": -0.5,
+      "title": "未登记的对外通讯",
+      "text": "监听组截获一段新的加密通讯，发出方登记为本站内部终端。情报官的名字出现在原始记录里，而这份记录本应只有你和他看过。"
+    },
+    {
+      "id": "E-04",
+      "trigger_error_type": "contradiction",
+      "min_count": 2,
+      "trust_delta": 0,
+      "title": "物资流向异常",
+      "text": "供应部盘点发现两项高危材料的使用记录对不上账。负责登记的人说，文书上盖的章是真的，所以他照发了。"
+    },
+    {
+      "id": "E-05",
+      "trigger_error_type": "overreach",
+      "min_count": 1,
+      "trust_delta": -0.5,
+      "title": "权限越界",
+      "text": "指挥层走廊的闸机记录显示，一张新开通的通用权限卡在非授权时段刷开了三处门。安保临时封锁了该区域，封锁持续了 40 分钟。"
+    },
+    {
+      "id": "E-06",
+      "trigger_error_type": "directive_cross_dept",
+      "min_count": 2,
+      "trust_delta": 0,
+      "title": "部门人事错位",
+      "text": "两个部门的人事表在同一周内被改了两次，两边的部门主管都认为自己拿到了批准。Captain 只回了一行字：「我说过等我回舰。」"
+    },
+    {
+      "id": "E-07",
+      "trigger_error_type": "directive_d_class",
+      "min_count": 1,
+      "trust_delta": -0.5,
+      "title": "不该出现的区域",
+      "text": "监控拍到一名 D 级人员出现在生活区以外的走廊。安保问是谁批的权限，系统里查不到 Captain 的复核记录。"
+    },
+    {
+      "id": "E-08",
+      "trigger_error_type": "__total__",
+      "min_count": 6,
+      "trust_delta": -1,
+      "title": "议会启动复核",
+      "text": "中央议会发来一份标准格式的问询函：关于本周期临时人事官的裁定质量。函件末尾写着「请在下一周期前给出说明」。没有落款人。"
+    },
+    {
+      "id": "E-09",
+      "trigger_error_type": "mishandled",
+      "min_count": 2,
+      "trust_delta": 0,
+      "title": "例会上的追问",
+      "text": "周例会上有人提起本班次的几份常规文书，问为什么被卡住了。没有人指名道姓，但记录里写着裁定的时间戳。"
+    }
+  ]
+}

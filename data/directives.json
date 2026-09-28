@@ -1,0 +1,28 @@
+{
+  "directives": [
+    {
+      "id": "D-01",
+      "trigger_batch": 2,
+      "sender": "Captain（离舰中 · 加密通讯）",
+      "text": "人事官，我临时接管人事审批口径：本周期内所有跨部门调动一律驳回，等我回舰再议。医疗部的检修需求让工程部派人过去，不要放人走。",
+      "rule_change": {
+        "summary": "跨部门调动 · 一律驳回",
+        "match_tag": "跨部门",
+        "action": "reject",
+        "error_type": "directive_cross_dept"
+      }
+    },
+    {
+      "id": "D-02",
+      "trigger_batch": 3,
+      "sender": "Captain（离舰中 · 加密通讯）",
+      "text": "补充指令：凡涉及 D 级人员的权限与身份申请，一律不自行裁定，全部转交我复核。另外医疗类的常规申请按原规则走，别卡着。",
+      "rule_change": {
+        "summary": "涉及 D 级人员 · 一律转交 Captain",
+        "match_tag": "D级",
+        "action": "transfer",
+        "error_type": "directive_d_class"
+      }
+    }
+  ]
+}

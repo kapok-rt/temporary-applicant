@@ -1,0 +1,348 @@
+{
+  "applications": [
+    {
+      "id": "A-101",
+      "batch": 1,
+      "doc_type": "临时权限申请书",
+      "form_no": "NT-HOP-0117",
+      "applicant": "Kira Voss",
+      "role": "医疗部 · 实习医师",
+      "request": "申请开通医疗部药品柜（Pharmacy）的临时开启权限，有效期至本值班周期结束，到期自动失效。",
+      "reason": "本班次值班医师仅我一人在岗，而急救取药流程要求双人在场核验，当前流程无法闭合。",
+      "signed": true,
+      "dept_stamp": "医疗部 · CMO 章（清晰）",
+      "security_note": "入职 47 天，无违规记录。上一份临时权限已按期归还，归还时间早于截止 6 小时。",
+      "ideal_action": "approve",
+      "error_type": "",
+      "tags": [
+        "教学",
+        "常规",
+        "医疗"
+      ]
+    },
+    {
+      "id": "A-102",
+      "batch": 1,
+      "doc_type": "武器许可申请",
+      "form_no": "NT-SEC-0088",
+      "applicant": "Vane Mikhail",
+      "role": "安全部 · 战术警员",
+      "request": "申请配发能量手枪一具、非致命弹匣两枚，用于本班次外围走廊巡逻。",
+      "reason": "外围走廊近三班次内两次出现未登记潜入者，巡逻组需要自卫手段。",
+      "signed": true,
+      "dept_stamp": "安全部 · 值班章（无 HoS 预盖章）",
+      "security_note": "在册 3 年，一次口头警告（值班时未按时提交巡逻记录）。",
+      "ideal_action": "reject",
+      "error_type": "missing_hos_stamp",
+      "tags": [
+        "武器",
+        "硬规则"
+      ],
+      "hos_prestamp": false
+    },
+    {
+      "id": "A-103",
+      "batch": 1,
+      "doc_type": "部门调动申请",
+      "form_no": "NT-PER-0231",
+      "applicant": "Jonas Reed",
+      "role": "工程部 · 初级技师",
+      "request": "申请于本值班周期内由工程部调往科研部，任设备维护岗。",
+      "reason": "科研部离心机连续报警三班次，站内熟悉该型号的人只剩我一个。",
+      "signed": false,
+      "dept_stamp": "工程部 · CE 章（清晰）",
+      "security_note": "无违规记录，无越权记录，工分正常。",
+      "ideal_action": "reject",
+      "error_type": "unsigned",
+      "tags": [
+        "硬规则",
+        "调动"
+      ]
+    },
+    {
+      "id": "A-104",
+      "batch": 1,
+      "doc_type": "实验材料领用申请",
+      "form_no": "NT-SCI-0402",
+      "applicant": "Danil Krex",
+      "role": "科研部 · 实习研究员",
+      "request": "申请领用 B 级高危生物样本 20 单位，及配套三级防护耗材一套。",
+      "reason": "想在下班后自己做一些兴趣方向的实验，我觉得应该不会有人介意。",
+      "signed": true,
+      "dept_stamp": "科研部 · RD 章（清晰）",
+      "security_note": "入职 12 天，尚未取得独立实验资质，无高危材料操作记录。",
+      "ideal_action": "reject",
+      "error_type": "contradiction",
+      "tags": [
+        "软线索",
+        "科研"
+      ]
+    },
+    {
+      "id": "A-105",
+      "batch": 1,
+      "doc_type": "门禁权限续期申请",
+      "form_no": "NT-SRV-0510",
+      "applicant": "Mia Orlov",
+      "role": "服务部 · 酒吧招待",
+      "request": "申请续期酒吧吧台与后厨门禁权限，有效期至本值班周期结束。",
+      "reason": "原权限随上一值班周期到期，现无法进入后厨备料，晚班将无餐食供应。",
+      "signed": true,
+      "dept_stamp": "服务部 · 值班章（清晰）",
+      "security_note": "在册 2 年，无违规记录，无越权记录。",
+      "ideal_action": "approve",
+      "error_type": "",
+      "tags": [
+        "常规"
+      ]
+    },
+    {
+      "id": "A-106",
+      "batch": 1,
+      "doc_type": "内部通讯记录调阅申请",
+      "form_no": "NT-SEC-0091",
+      "applicant": "Ilya Novak",
+      "role": "安全部 · 情报官",
+      "request": "申请调阅本值班周期内全部跨部门内部通讯记录原件。",
+      "reason": "例行安全排查，需要比对跨部门通讯频次。",
+      "signed": true,
+      "dept_stamp": "安全部 · 值班章（清晰）",
+      "security_note": "可疑 —— 与站外频道存在三次未登记的加密通讯，时段均在换班前后。",
+      "ideal_action": "transfer",
+      "error_type": "suspicious_record",
+      "tags": [
+        "硬规则",
+        "情报"
+      ]
+    },
+    {
+      "id": "A-201",
+      "batch": 2,
+      "doc_type": "跨部门调动申请",
+      "form_no": "NT-PER-0244",
+      "applicant": "Sofia Grant",
+      "role": "工程部 · 高级技师",
+      "request": "申请自本周期起由工程部调往医疗部，任生命维持设备维护岗。",
+      "reason": "医疗部两台呼吸机反复宕机，现有医师不具备自行检修的资质。",
+      "signed": true,
+      "dept_stamp": "工程部 · CE 章 / 医疗部 · CMO 章（双章齐全）",
+      "security_note": "在册 5 年，无违规记录，无越权记录，两次获部门嘉奖。",
+      "ideal_action": "reject",
+      "error_type": "directive_cross_dept",
+      "tags": [
+        "跨部门",
+        "调动"
+      ]
+    },
+    {
+      "id": "A-202",
+      "batch": 2,
+      "doc_type": "跨部门临时权限申请",
+      "form_no": "NT-SRV-0533",
+      "applicant": "Hugo Lenn",
+      "role": "服务部 · 清洁工",
+      "request": "申请开通安全部外围走廊与安检口的临时通行权限，有效期一个周期。",
+      "reason": "夜间清洁排班调整，作业路线必须经过安检口。",
+      "signed": true,
+      "dept_stamp": "服务部 · 值班章（清晰）",
+      "security_note": "可疑 —— 上月两次在非排班时段出现在安全部走廊，均无出入登记。",
+      "ideal_action": "reject",
+      "error_type": "directive_cross_dept",
+      "tags": [
+        "跨部门",
+        "硬规则"
+      ]
+    },
+    {
+      "id": "A-203",
+      "batch": 2,
+      "doc_type": "武器许可申请",
+      "form_no": "NT-SEC-0099",
+      "applicant": "Vane Mikhail",
+      "role": "安全部 · 战术警员",
+      "request": "申请领用制式电击棒一支，用于本班次安检口执勤。",
+      "reason": "安检口上一班次查获未登记刀具，执勤岗位需要非致命制服手段。",
+      "signed": true,
+      "dept_stamp": "安全部 · HoS 预盖章（已核验）",
+      "security_note": "在册 3 年，一次口头警告（值班时未按时提交巡逻记录）。",
+      "ideal_action": "approve",
+      "error_type": "",
+      "tags": [
+        "武器",
+        "常规"
+      ],
+      "hos_prestamp": true
+    },
+    {
+      "id": "A-204",
+      "batch": 2,
+      "doc_type": "物资申领申请",
+      "form_no": "NT-SUP-0620",
+      "applicant": "Petra Nunes",
+      "role": "供应部 · 库管",
+      "request": "申请调拨标准营养包 30 单位、净水滤芯 10 单位至服务部。",
+      "reason": "服务部库存已低于安全线，按当前消耗量将在三日内断供。",
+      "signed": true,
+      "dept_stamp": "供应部 · QM 章（清晰）",
+      "security_note": "在册 4 年，无违规记录，无越权记录。",
+      "ideal_action": "approve",
+      "error_type": "",
+      "tags": [
+        "常规"
+      ]
+    },
+    {
+      "id": "A-205",
+      "batch": 2,
+      "doc_type": "全区通行权限申请",
+      "form_no": "NT-CMD-0777",
+      "applicant": "Rae Osei",
+      "role": "科研部 · 助理",
+      "request": "申请开通本站全部部门（含指挥层与军械库）的通用通行权限。",
+      "reason": "这样办事比较方便，跑来跑去申请太浪费时间。",
+      "signed": true,
+      "dept_stamp": "科研部 · RD 章（清晰）",
+      "security_note": "入职 21 天，无违规记录，无越权记录。",
+      "ideal_action": "reject",
+      "error_type": "overreach",
+      "tags": [
+        "软线索",
+        "越权"
+      ]
+    },
+    {
+      "id": "A-206",
+      "batch": 2,
+      "doc_type": "驳回复核申请",
+      "form_no": "NT-PER-0250",
+      "applicant": "Boris Kaln",
+      "role": "工程部 · 技师",
+      "request": "对本人上一份被驳回的加班申请提出复核，请求重新裁定。",
+      "reason": "上一次驳回没有写明理由，我怀疑是终端系统出了错。",
+      "signed": true,
+      "dept_stamp": "工程部 · CE 章（清晰）",
+      "security_note": "可疑 —— 与三名已离职人员保持高频联络记录，通讯内容未登记。",
+      "ideal_action": "transfer",
+      "error_type": "suspicious_record",
+      "tags": [
+        "硬规则",
+        "复核"
+      ]
+    },
+    {
+      "id": "A-301",
+      "batch": 3,
+      "doc_type": "权限恢复申请",
+      "form_no": "NT-D-0912",
+      "applicant": "D-0912",
+      "role": "D 级人员 · 编号 D-0912",
+      "request": "申请恢复本人对生活区与工坊的基础通行权限。",
+      "reason": "本月工分已结清，按站内规定具备申请恢复权限的条件。",
+      "signed": true,
+      "dept_stamp": "安全部 · 值班章（清晰）",
+      "security_note": "在册 8 个月，无违规记录，工分正常，无越权记录。",
+      "ideal_action": "transfer",
+      "error_type": "directive_d_class",
+      "tags": [
+        "D级",
+        "硬规则"
+      ]
+    },
+    {
+      "id": "A-302",
+      "batch": 3,
+      "doc_type": "临时权限扩权申请",
+      "form_no": "NT-MED-0455",
+      "applicant": "Kira Voss",
+      "role": "医疗部 · 实习医师",
+      "request": "申请将药品柜临时权限扩展至冷藏药品区，有效期至本周期结束。",
+      "reason": "冷藏区一盒低温药品需在本班次内重新封存，双人核验流程缺一人。",
+      "signed": true,
+      "dept_stamp": "医疗部 · CMO 章（清晰）",
+      "security_note": "入职 61 天，无违规记录。前一份临时权限已按期归还。",
+      "ideal_action": "approve",
+      "error_type": "",
+      "tags": [
+        "常规",
+        "医疗"
+      ]
+    },
+    {
+      "id": "A-303",
+      "batch": 3,
+      "doc_type": "武器许可申请",
+      "form_no": "NT-SEC-0104",
+      "applicant": "Lior Bane",
+      "role": "安全部 · 见习警员",
+      "request": "申请配发制式电击棒一支，随队执行本班次巡逻。",
+      "reason": "见习期要求随队巡逻，队内仅我一人未配发器械。",
+      "signed": true,
+      "dept_stamp": "安全部 · 值班章（无 HoS 预盖章）",
+      "security_note": "见习期第 9 天，无违规记录。",
+      "ideal_action": "reject",
+      "error_type": "missing_hos_stamp",
+      "tags": [
+        "武器",
+        "硬规则"
+      ],
+      "hos_prestamp": false
+    },
+    {
+      "id": "A-304",
+      "batch": 3,
+      "doc_type": "紧急维修权限申请",
+      "form_no": "NT-ENG-0781",
+      "applicant": "Tessa Rourke",
+      "role": "工程部 · 文员",
+      "request": "申请开通反应堆外围检修通道的紧急权限，有效期一个周期。",
+      "reason": "我平时负责整理反应堆的维修报表，这块资料我最熟。",
+      "signed": true,
+      "dept_stamp": "工程部 · CE 章（清晰）",
+      "security_note": "在册 3 个月，无违规记录。无任何检修资质记录，未受过高危区培训。",
+      "ideal_action": "reject",
+      "error_type": "contradiction",
+      "tags": [
+        "软线索",
+        "工程"
+      ]
+    },
+    {
+      "id": "A-305",
+      "batch": 3,
+      "doc_type": "D 级转岗申请",
+      "form_no": "NT-D-0955",
+      "applicant": "D-0955",
+      "role": "D 级人员 · 编号 D-0955",
+      "request": "申请由 D 级身份调整为供应部辅助工，撤销原有限制。",
+      "reason": "已完成三个月工分任务，期间无任何违纪记录。",
+      "signed": true,
+      "dept_stamp": "安全部 · 值班章 / 供应部 · QM 章（双章齐全）",
+      "security_note": "无违规记录，工分结清。",
+      "ideal_action": "transfer",
+      "error_type": "directive_d_class",
+      "tags": [
+        "D级",
+        "调动"
+      ]
+    },
+    {
+      "id": "A-306",
+      "batch": 3,
+      "doc_type": "临时人事官续任申请",
+      "form_no": "NT-HOP-9999",
+      "applicant": "（本机）临时人事官",
+      "role": "指挥层 · 临时代理",
+      "request": "申请将本人「临时人事官」权限续期至下一个值班周期。",
+      "reason": "Captain 不在舰，站内已无具备复核与签核权限的人员。",
+      "signed": false,
+      "dept_stamp": "无",
+      "security_note": "由中央 AI 临时指派，任命文书缺少 Captain 签章，权限标记为「周期内有效」。",
+      "ideal_action": "reject",
+      "error_type": "unsigned",
+      "tags": [
+        "叙事",
+        "硬规则"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "shift_seconds": 480,
+  "relaxed_seconds": 900,
+  "batches": 3,
+  "stamp_durability": 15,
+  "stamp_cost_approve": 1,
+  "wait_slots": 3,
+  "transfer_delay_batches": 1,
+  "trust_correct": 1,
+  "trust_wrong": -1,
+  "trust_transfer_correct": 0.5
+}

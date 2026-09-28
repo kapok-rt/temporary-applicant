@@ -1,0 +1,32 @@
+{
+  "title": "值班审核规则（周期内有效）",
+  "hard_rules": [
+    {
+      "code": "R1",
+      "text": "文书未签名：一律驳回。",
+      "action": "reject",
+      "error_type": "unsigned"
+    },
+    {
+      "code": "R2",
+      "text": "武器类许可必须附安全部 HoS 预盖章，否则驳回。",
+      "action": "reject",
+      "error_type": "missing_hos_stamp"
+    },
+    {
+      "code": "R3",
+      "text": "安全记录出现「可疑」标注：不得自行决断，转交 Captain。",
+      "action": "transfer",
+      "error_type": "suspicious_record"
+    }
+  ],
+  "soft_hints": [
+    "理由是否与该职务的实际职责相符？",
+    "同一申请人在本周期内是否重复递交同类文书？",
+    "请求的范围是否明显超出文书本身的名义？",
+    "安全记录的语气与细节是否对得上申请理由？"
+  ],
+  "ops_notes": [
+    "批准消耗印章耐久 1 点；转交占用等待槽 1 格，延迟 1 个批次返回回执。"
+  ]
+}
